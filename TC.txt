@@ -1,0 +1,10 @@
+open(chrome)
+navigate(http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx)
+type(tester,xpath='ctl00_MainContent_username')
+type(test,xpath='ctl00$MainContent$password')
+click(xpath='ctl00$MainContent$login_button') 
+
+
+open(IE)
+navigate(smartbear)
+type(tester,xpath)
